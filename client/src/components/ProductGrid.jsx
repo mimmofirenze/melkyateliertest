@@ -17,7 +17,7 @@ function ProductGrid({ addToCart }) {
       name: 'Vestito Rosa',
       price: 89,
       category: 'abiti',
-      image: '/images/vestitoRosa.webp',
+      image: '/shop/images/vestitoRosa.webp',
       description: desc,
     },
     {
@@ -25,7 +25,7 @@ function ProductGrid({ addToCart }) {
       name: 'Borsa Melky',
       price: 59,
       category: 'accessori',
-      image: '/images/borsa.webp',
+      image: '/shop/images/borsa.webp',
       description: desc,
     },
     {
@@ -33,7 +33,7 @@ function ProductGrid({ addToCart }) {
       name: 'Set Intimo',
       price: 49,
       category: 'intimo',
-      image: '/images/intimoBlu.webp',
+      image: '/shop/images/intimoBlu.webp',
       description: desc,
     },
     {
@@ -41,7 +41,7 @@ function ProductGrid({ addToCart }) {
       name: 'Vestito Lungo',
       price: 119,
       category: 'abiti',
-      image: '/images/vestitoNero.webp',
+      image: '/shop/images/vestitoNero.webp',
       description: desc,
     },
     {
@@ -49,7 +49,7 @@ function ProductGrid({ addToCart }) {
       name: 'Vestito giallo',
       price: 109,
       category: 'abiti',
-      image: '/images/vestitoGiallo.webp',
+      image: '/shop/images/vestitoGiallo.webp',
       description: desc,
     },
     {
@@ -57,7 +57,7 @@ function ProductGrid({ addToCart }) {
       name: 'Borsa Mimmo',
       price: 89,
       category: 'accessori',
-      image: '/images/borsaRosa.webp',
+      image: '/shop/images/borsaRosa.webp',
       description: desc,
     },
     {
@@ -65,7 +65,7 @@ function ProductGrid({ addToCart }) {
       name: 'Set Intimo ecco Mimmo',
       price: 79,
       category: 'intimo',
-      image: '/images/intimoRosa.webp',
+      image: '/shop/images/intimoRosa.webp',
       description: desc,
     },
     {
@@ -73,7 +73,7 @@ function ProductGrid({ addToCart }) {
       name: 'Vestito Mimmo esibitore',
       price: 149,
       category: 'abiti',
-      image: '/images/vestito.webp',
+      image: '/shop/images/vestito.webp',
       description: desc,
     },
   ]
