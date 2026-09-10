@@ -1,0 +1,14 @@
+.note-legali {
+    display: block;
+    margin: 48px;
+}
+
+h1 {
+    margin: 16px 0;
+    color: var(--dark-color);
+    padding-top: 80px;
+}
+
+h2 {
+    color: var(--dark-color);
+}

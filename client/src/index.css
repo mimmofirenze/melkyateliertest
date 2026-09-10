@@ -1,0 +1,62 @@
+/* ===== GLOBAL SETTINGS ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== ROOT VARIABLES ===== */
+
+:root {
+  --primary-color: #E9D7C9;
+  --secondary-color: #DFAA98;
+  --tertiary-color: #89667b;
+  --accent-color: #B56271;
+  --dark-color: #6E1B25;
+}
+
+/* ===== UTILITY CLASSES ===== */
+
+.petit-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ==== BODY ==== */
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}

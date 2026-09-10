@@ -1,0 +1,67 @@
+.cart-toast {
+  position: fixed;
+
+  right: 24px;
+  bottom: 24px;
+
+  z-index: 200;
+
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  min-width: 260px;
+
+  padding: 14px 18px;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+
+  font-family: "Lato", sans-serif;
+}
+
+.cart-toast-check {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: var(--dark-color);
+  color: white;
+
+  font-size: 14px;
+}
+
+.cart-toast strong {
+  display: block;
+
+  font-size: 14px;
+
+  color: var(--dark-color);
+}
+
+.cart-toast p {
+  margin-top: 2px;
+
+  font-size: 13px;
+
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .cart-toast {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+
+    min-width: 0;
+  }
+}
